@@ -21,7 +21,7 @@ if you want to cut a `f16` gguf into `q4_k_m`, you should execute the `command` 
 then, after completing the process, the quantized `q_4_k_m` will be saved in the current directory
 
 #
-### additional chapter - make your own executable quantizor
+### additional chapter: make your own executable quantizor
 #### compile the .exe file for your customized machine if the .exe above doesn't work
 git clone llama.cpp:
 ```
