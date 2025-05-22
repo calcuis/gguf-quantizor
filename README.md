@@ -37,13 +37,13 @@ git apply ..\quantizor.patch
 compile the llama-quantize for your machine:
 ```
 mkdir build
-cmake -B build
-cmake --build build --config Debug -j10 --target llama-quantize
+cd build
+cmake ..
+cmake --build . --config Debug -j10 --target llama-quantize
 ```
 
 quantize your file:
 ```
-cd build
 cd bin
 .\llama-quantize.exe your-gguf-f16.gguf output-gguf-q4_k_m.gguf q4_k_m
 ```
