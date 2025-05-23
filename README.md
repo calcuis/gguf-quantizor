@@ -22,7 +22,7 @@ then, after completing the process, the quantized `q_4_k_m` will be saved in the
 
 #
 ### additional chapter: make your own executable quantizor/cutter
-#### compile the .exe file for your customized machine if the .exe above doesn't work
+#### compile the executable file (i.e.,.exe) for your customized machine or specifed os if the .exe above doesn't work
 git clone llama.cpp:
 ```
 git clone https://github.com/ggml-org/llama.cpp
