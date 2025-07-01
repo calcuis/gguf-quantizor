@@ -18,7 +18,7 @@ if you want to cut a `f16` gguf into `q4_k_m`, you should execute the `command` 
 ```
 .\quantizor.exe your-gguf-f16.gguf output-gguf-q4_k_m.gguf q4_k_m
 ```
-then, after completing the process, the quantized `q_4_k_m` will be saved in the current directory
+then, after completing the process, the `q4_k_m` quantized gguf file will be saved in the current directory
 
 #
 ### additional chapter: make your own executable quantizor/cutter
